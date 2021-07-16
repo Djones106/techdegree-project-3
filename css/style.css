@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+/*Form Styles*/
+
+/*Hide choose state placeholder*/
+select:invalid{
+    color: lightgray;
+}
+option[value=""][disabled]{
+    display:none;
+}
+option {
+    color:black;
+}
