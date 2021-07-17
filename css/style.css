@@ -1,7 +1,48 @@
 *{
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+    background: #e4e4ef;
+    color: #f07878;
 }
+ul {
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom:0;
+}
+button{
+    background: #f07878;
+    color:#404267;
+    width: 100%;
+    border:none;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background: #404267;
+    color:#f07878;
+    cursor: pointer;
+    
+}
+.main-header{
+    font-size: 28px;
+    background: #404267;
+    color: #e4e4ef;
+    width: 100%;
+    padding: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    margin-top: 0;
+}
+
 /*Form Styles*/
 
 /*Hide choose state placeholder*/
@@ -13,4 +54,16 @@ option[value=""][disabled]{
 }
 option {
     color:black;
+}
+
+/*Center the form on the page*/
+
+form{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+fieldset{
+    border: none;
 }
