@@ -12,37 +12,44 @@
     <title>THE CODE REVIEW</title>
 
     <header class="main-header">THE CODE REVIEW</header>
+</head>
+    <body>
+        <main>
     <section class="title">
     <h1>Signup for our newsletter</h1><br>
     <p>Get the latest news on how your code is doing right in your inbox</p>
     <hr>
+    <hr>
+   
     </section>
 
-    <section class="contact information">
+    <section class="contact-info">
         <h2>Contact Information</h2>
         <form action="0">
-            <ul>
-                <li>
+            <fieldset>
+                <div class="contact-box">
+                
                     <label for="name">Full Name</label>
                     <input required type="text" name="name" id="user_name" placeholder="Required">
-                </li>
-                <li>
+              </div>
+              <div class="contact-box">
                     <label for="email">Email Address</label>
                     <input required type="text" name="email" id="user_email" placeholder="Required">
-                </li>
-                <li>
+                </div>
+                <div class="contact-box">
                     <label for="phone">Phone Number</label>
-                    <input type="text" name="phone" id="user_phone">
-                </li>
-                <li>
+                    <input type="text" name="phone" id="user_phone" placeholder="Phone Number">
+                </div>
+                <div class="contact-box">
                     <label for="address">Street Address</label>
-                    <input type="text" name="address" id="user_address">
-                </li>
-                <li>
+                    <input type="text" name="address" id="user_address" placeholder="Street Address">
+                </div>
+               <div class="contact-box">
                     <label for="city">City</label>
-                    <input type="text" name="city" id="user_city">
-                </li>
-                <li>
+                    <input type="text" name="city" id="user_city"
+                    placeholder="City">
+                </div>
+                <div class="contact-box">
                     <label for="state">State</label>
                     <select list="state" name="state" id="user_state" placeholder="Choose State">
                         <option value="" disabled selected>Choose State</option>
@@ -97,13 +104,13 @@
                         <option value="Wisconsin">Wisconsin</option>
                         <option value="Wyoming">Wyoming</option>                  
                     </select>
-                </li>
-                <li>
+                </div>
+                <div class="contact-box">
                     <label for="zip">Zip Code</label>
-                    <input type="text" name="zip" id="user_zip">
-                </li>
-
-            </ul>
+                    <input type="text" name="zip" id="user_zip" placeholder="Zip Code">
+                </div>
+        </fieldset>
+        
             <hr>
        </section> 
         
@@ -112,55 +119,46 @@
         <p>Select the newsletters you would like to receive</p>
 
         <fieldset>
-            <ul>
-                <li>
-                    <label for="newsletters">
-                    <input type="checkbox" id="newsletters_1" name="newsletters" value="html-news"> HTML News
+                    <label class="container"for="newsletters">HTML News
+                    <input type="checkbox" id="newsletters_1" name="newsletters" value="html-news"> <span class="checkmark"></span>
                     </label>
-                </li>
-                    <li>
-                    <label for="newsletters">
-                        <input type="checkbox" id="newsletters_2" name="newsletters" value="css-news"> CSS News
+              
+                    <label class="container"for="newsletters">CSS News
+                        <input type="checkbox" id="newsletters_2" name="newsletters" value="css-news"> <span class="checkmark"></span>
                         </label>
-                    </li>
-                    <li>
-                        <label for="newsletters">
-                            <input type="checkbox" id="newsletters_3" name="newsletters" value="javascript-news"> Javascript News
-                            </label>
-                        </li>
-            
-        </ul>
+                    
+                        <label class="container"for="newsletters"> Javascript News
+                            <input type="checkbox" id="newsletters_3" name="newsletters" value="javascript-news"> <span class="checkmark"></span>
+                            </label>         
+      
     </fieldset>
         <p>Newsletter format</p>
         <fieldset>
-        <ul>
-            <li>
-                <label for="newsletters-format">
-                    <input type="radio" id="format_1" name="format" value="html"> HTML
+        <div>
+            
+                <label class="container" for="newsletters-format">HTML
+                    <input type="radio" id="format_1" name="format" value="html"> <span class="radio"></span>
                     </label>
-                </li>
-            <li>
-                <label for="newsletters-format">
-                    <input type="radio" id="format_2" name="format" value="plain-text"> Plain text
+                </div>
+            <div>
+                <label class="container" for="newsletters-format"> Plain text
+                    <input type="radio" id="format_2" name="format" value="plain-text"><span class="radio"></span>
                     </label>
-                </li>
+                </div>
 
-        </ul>
     </fieldset>
         <p>Other topics you'd like to hear about</p>
         <fieldset>
-            <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+            <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
 
-            <ul>
-                <li class="button">
+            <div class = "button">
                     <button type="submit">Sign Up</button>
-                </li>
-            </ul>
+                </div>
         </fieldset>
         </section>
 
         <footer>
-            <p>Copyright The Code Review</p>
+            <p>Copyright &copy; The Code Review</p>
         </footer>
        
 
@@ -168,10 +166,10 @@
     
 
     </form> 
-
+</main>
     
-</head>
-<body>
+
+
     
 </body>
 </html>
