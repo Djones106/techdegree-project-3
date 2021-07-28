@@ -7,9 +7,7 @@
    
 }
 
-main{
 
-}
 .div{
     margin: 0;
     padding: 0;
@@ -176,12 +174,20 @@ textarea{
 }
 /* Media qu */
 @media (min-width: 786px) {
-    .button{
+    button{
         width: 50%;
+        justify-content: center;
+        align-content: center;
+
     }
+    textarea{
+        width: 80%;
+    }
+
     .contact-box {
         flex-direction: row;
     }
+
     .contact-box label{
         flex-basis: 9rem;
         flex-grow: 0;
@@ -195,6 +201,10 @@ textarea{
         flex-basis: 0;
         flex-grow: 1;
         flex-shrink: 1;
+    }
+
+    main{
+        margin: 0px 200px;
     }
     
  
