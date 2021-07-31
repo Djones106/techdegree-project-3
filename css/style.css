@@ -140,7 +140,7 @@ select{
     margin: 8px 0;
 }
 
-input[type=text]{
+input{
     width:100%;
     padding: 12px 20px;
     margin: 8px;
@@ -149,7 +149,7 @@ input[type=text]{
     margin-top: 0;
     
 }
-input[type=text]:focus{
+input:focus{
     border: 3px solid #555;
 
 }
@@ -164,7 +164,7 @@ select:focus{
 }
 
 .contact-box:last-child{
-    width: 50%;
+    width: 75%;
 }
 
 footer{
@@ -178,7 +178,7 @@ textarea{
     background: #F4EDF5;
     font-weight: 500;
 }
-/* Media qu */
+/* Media queries */
 @media (min-width: 786px) {
     button{
         width: 100%;
@@ -192,6 +192,10 @@ textarea{
 
     .contact-box {
         flex-direction: row;
+    }
+
+    .contact-box:last-child{
+        width: 50%;
     }
 
     .contact-box label{
