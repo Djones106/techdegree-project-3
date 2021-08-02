@@ -17,6 +17,9 @@ h1{
     margin-top: 2em;
     margin-bottom:0;
 }
+h2{
+    font-weight: bold;
+}
 legend{
     text-align: left;
     margin-top: 2em;
@@ -135,12 +138,9 @@ input{
     width: 100%;
 }
 
-select{
-    padding: 12px 20px;
-    margin: 8px 0;
-}
 
-input{
+
+input, select{
     width:100%;
     padding: 12px 20px;
     margin: 8px;
@@ -153,18 +153,14 @@ input:focus{
     border: 3px solid #555;
 
 }
-select{
-    width: 100%;
-    padding: 16px 20px;
-    border-radius: 4px;
-}
+
 
 select:focus{
-    background: #f07878;;
+    background: #404264;;
 }
 
 .contact-box:last-child{
-    width: 75%;
+    width: 50%;
 }
 
 footer{
@@ -195,14 +191,13 @@ textarea{
     }
 
     .contact-box:last-child{
-        width: 50%;
+        width: 25%;
     }
 
     .contact-box label{
         flex-basis: 9rem;
         flex-grow: 0;
         flex-shrink: 0;
-        justify-content: flex-start;
         
     }
     .contact-box input,
