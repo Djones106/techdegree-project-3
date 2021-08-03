@@ -175,7 +175,7 @@ textarea{
     font-weight: 500;
 }
 /* Media queries */
-@media (min-width: 786px) {
+@media (min-width: 768px) {
     button{
         width: 100%;
         justify-content: center;
@@ -190,7 +190,7 @@ textarea{
         flex-direction: row;
     }
 
-    .contact-box:last-child{
+    .contact-box:last-child input{
         width: 25%;
     }
 
@@ -209,7 +209,8 @@ textarea{
     }
 
     main{
-        margin: 0px 200px;
+        max-width: 768px;
+        margin: 0px auto;
     }
     
  
