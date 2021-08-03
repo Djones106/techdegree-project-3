@@ -147,6 +147,7 @@ input, select{
     background: #F4EDF5;
     border-radius: 1px;
     margin-top: 0;
+    border: 2px solid black;
     
 }
 input:focus{
@@ -173,6 +174,10 @@ textarea{
     border: 2px solid #ccc;
     background: #F4EDF5;
     font-weight: 500;
+}
+
+textarea:focus{
+    border: 3px solid #555;
 }
 /* Media queries */
 @media (min-width: 768px) {
